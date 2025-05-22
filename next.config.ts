@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  //basePath: "/PRLIMA-SITE",
+  basePath: "/prlima-site",
   output: "export",
   reactStrictMode: true,
 };
