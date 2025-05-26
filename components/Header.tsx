@@ -8,10 +8,10 @@ export const Header = () => {
                 <nav>
                     <ul className = "flex item-center gap-4">
                         <li>
-                            <a href = '/academic'>academic</a>
+                            <a href = '/prlima/academic'>academic</a>
                         </li>
                         <li>
-                            <a href = '/projects'>projects</a>
+                            <a href = '/prlima/projects'>projects</a>
                         </li>
                     </ul>
                 </nav>
