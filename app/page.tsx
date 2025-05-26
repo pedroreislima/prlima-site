@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white pb-10">
       <h1 className="text-3xl font-bold max-w-[80ch] mx-auto p-5">
         Pedro Reis Lima
       </h1>
@@ -17,9 +17,10 @@ export default function Home() {
           </svg></a>
         </div>
 
-        <div className="lg:row-span-2 w-auto">
+        <div className="lg:row-span-2 w-auto flex items-center justify-center p-5">
           <p className="text-justify p-5">
             Meu nome é Pedro e sou Economista e Cientista de Dados. Mais especificamente, sou formado em economia e também mestre pela Universidade Federal do Ceará.
+            <br/>Minhas áreas de interesse transitam entre Microeconomia, Econometria, Economia do Crime e Análise de Dados.
           </p>
         </div>
       </div>
