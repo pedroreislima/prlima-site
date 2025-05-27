@@ -3,7 +3,7 @@ export const Header = () => {
         <header className="flex bg-black text-white px-2 py-4">
             <div className="flex items-center w-full mx-auto justify-between">
                 <div className = 'text-bold'>
-                    <a href = '/'>Pedro Reis Lima</a>
+                    <a href = '/prlima-site/'>Pedro Reis Lima</a>
                 </div>
                 <nav>
                     <ul className = "flex item-center gap-4">
