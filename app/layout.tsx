@@ -1,7 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Ubuntu_Sans, Atkinson_Hyperlegible } from "next/font/google";
 import "./globals.css";
 import { Header } from "../components/Header";
+
+const ubuntuSans = Ubuntu_Sans({
+  variable: "--font-ubuntu-sans",
+  subsets: ["latin"],
+});
+
+const atkison = Atkinson_Hyperlegible({
+  variable: "--font-atkison",
+  subsets: ["latin"],
+  weight: "400"
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={atkison.className}>
         <Header />
         {children}
       </body>

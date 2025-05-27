@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <div className="bg-black text-white pb-10">
+    <div className="bg-black text-white pb-10 ubuntuSans.className">
       <h1 className="text-3xl font-bold max-w-[80ch] mx-auto p-5">
         Pedro Reis Lima
       </h1>

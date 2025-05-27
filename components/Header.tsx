@@ -1,7 +1,7 @@
 export const Header = () => {
     return(
         <header className="flex bg-black text-white px-2 py-4">
-            <div className="flex items-center w-full mx-auto justify-between">
+            <div className="flex items-center w-full mx-auto justify-between pl-5 pr-5">
                 <div className = 'text-bold'>
                     <a href = '/prlima-site/'>Pedro Reis Lima</a>
                 </div>
