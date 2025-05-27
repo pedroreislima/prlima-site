@@ -11,13 +11,16 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-ubuntu: var(--font-ubuntu-sans);
-  --font-atkison: var(--font-atkison)
+  --font-atkison: var(--font-atkison);
+  --color-primary: #321E15;
+  --color-secondary: #F4FAFF;
+  --color-accent: #F9DC5C;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #F4FAFF;
+    --foreground: #0a0a0a;
   }
 }
 
