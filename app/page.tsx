@@ -1,3 +1,5 @@
+import { ProjectThumb } from "@/components/ProjectThumb";
+import { projects } from "@/lib/projects";
 
 export default function Home() {
   return (
@@ -51,7 +53,7 @@ export default function Home() {
       <hr className = "lg:p-2"/>
 
       {
-        // education and work section
+        // education section
       }
       <div className = "lg:max-w-[120ch] lg:p-0 pl-4 pr-4 mx-auto">
         <div className="pb-5 pt-5">
@@ -76,8 +78,52 @@ export default function Home() {
 
       </div>
       {
-        // projects
+        // work section
       }
+      <div className = "lg:max-w-[120ch] lg:p-0 pl-4 pr-4 mx-auto">
+        <div className="pb-5 pt-5">
+          <h2 className = "font-bold text-3xl pb-1 border-b-2 border-primary">Profissional</h2>
+        </div>
+
+        <div className="pb-5 ">
+          <h3 className = "text-xl">
+            Healthtech | Vai Bem Business, Fortaleza, Brasil - <strong>Business Intelligence Analyst</strong>
+          </h3>
+          <p className="text-primary/60">Desenvolvi automações de ETL com Python, SQL e Alteryx, criando e mantendo dashboards no Power BI. Desenvolvi métricas de cobertura de serviços de saúde, gerenciei workshops de SQL e apresentei análises semanais aos stakeholders.</p>
+          <p className="text-primary/60">2021 - 2022</p>
+        </div>
+
+        <div className="pb-5 mb-10">
+          <h3 className = "text-xl">
+            Pedro Reis Lima LTDA, Fortaleza, Brasil - <strong>Consultor de Business Intelligence</strong>
+          </h3>
+          <p className="text-primary/60">Prestei consultoria em análise de dados para empresas de advocacia e cobrança, desenvolvendo automações de ETL com Python e criando relatórios de resultados no Power BI.</p>
+          <p className="text-primary/60">2023</p>
+        </div>
+
+        {
+        // projects
+        }
+        <div className = "">
+          <div className = "font-bold text-3xl text-secondary bg-primary">
+            <h2>Projetos</h2>
+          </div>
+
+          <div>
+            <div className="grid gap-4 grid-cols-2 pt-4 pb-4">
+                  {projects.map((proj) => (
+                  <ProjectThumb
+                      key={proj.slug}
+                      title={proj.title}
+                      description={proj.description}
+                      path={proj.link}
+                      tags={proj.tags}
+                  />
+                  ))}
+              </div>
+            </div>
+        </div>
+      </div>
     </div>
   );
 }
