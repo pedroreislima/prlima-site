@@ -10,7 +10,8 @@ export const Header = () => {
                         <li className = "hover:text-accent">
                             <a href = '/prlima-site/academic'>academic</a>
                         </li>
-                        <li className = "hover:text-accent">
+                        {/*hide projects for now*/}
+                        <li className = "hover:text-accent hidden">
                             <a href = '/prlima-site/projects'>projects</a>
                         </li>
                         <li>

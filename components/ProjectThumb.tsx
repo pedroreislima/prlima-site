@@ -9,7 +9,7 @@ type ProjectThumbProps = {
 
 export const ProjectThumb = ({ title, description, path, tags }: ProjectThumbProps) => {
     return (
-        <div className="bg-primary/10 text-black p-2">
+        <div className="text-black p-2">
             <div className='border-b-1 mb-1'>
                 <a href = {path} className='text-xl font-semibold'>{title}</a>
             </div>
