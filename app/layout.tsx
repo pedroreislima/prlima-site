@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Ubuntu_Sans, Atkinson_Hyperlegible } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Ubuntu_Sans,
+  Ubuntu_Mono,
+  Atkinson_Hyperlegible,
+} from "next/font/google";
 import "./globals.css";
 import { Header } from "../components/Header";
 
@@ -8,10 +14,16 @@ const ubuntuSans = Ubuntu_Sans({
   subsets: ["latin"],
 });
 
+const ubuntuMono = Ubuntu_Mono({
+  variable: "--font-ubuntu-mono",
+  subsets: ["latin"],
+  weight: "400",
+});
+
 const atkison = Atkinson_Hyperlegible({
   variable: "--font-atkison",
   subsets: ["latin"],
-  weight: "400"
+  weight: "400",
 });
 
 const geistSans = Geist({

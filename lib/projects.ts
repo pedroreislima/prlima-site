@@ -1,16 +1,24 @@
 export const projects = [
   {
     slug: "ml-ratio",
-    title: "ML Ration",
+    title: "ML Ratio",
     description: "Estudo sobre razões de treino.",
-    link: "/projects/ml-ratio",
+    link: "/",
     tags: ["Machine Learning", "R"],
   },
   {
-    slug: "outro-projeto",
-    title: "Outro Projeto",
-    description: "Outro projeto incrível.",
-    link: "/images/outro-projeto.png",
-    tags: ["Python"],
+    slug: "random-forest-save",
+    title: "Random Forest to save Forests",
+    description:
+      "Aplicando random-forest para identificar áreas risco para pista de pouso ilegais na Amazônia.",
+    link: "/",
+    tags: ["Python", "Scikit", "Pandas"],
+  },
+  {
+    slug: "domestic-dash",
+    title: "Domestic Dashboard",
+    description: "Dashboard de gastos domésticos com dados simulados.",
+    link: "/",
+    tags: ["Python", "Dash", "Pandas"],
   },
 ];
