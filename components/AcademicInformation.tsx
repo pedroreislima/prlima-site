@@ -13,9 +13,9 @@ export const AcademicInformation = ({
     <div>
       {/* Apresentação */}
       {showBio && (
-        <div className="pb-5">
+        <div className="mb-10">
           <h1 className="heading-primary">Acadêmico</h1>
-          <p className="pt-2">
+          <p className="pt-2 text-justify">
             Sou mestre e graduado em economia pela Universidade Federal do
             Ceará. Tenho experiência na área de Economia, com ênfase em
             Microeconomia, atuando principalmente nos seguintes temas:

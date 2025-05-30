@@ -35,7 +35,7 @@ body {
 }
 
 .heading-primary {
-  @apply font-bold text-6xl pb-8 border-b-2 border-primary;
+  @apply font-bold text-6xl mb-6;
 }
 
 .heading-topic {
@@ -43,5 +43,5 @@ body {
 }
 
 .read-width {
-  @apply max-w-[80ch];
+  @apply max-w-[70ch];
 }

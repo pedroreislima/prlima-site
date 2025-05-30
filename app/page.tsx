@@ -12,7 +12,7 @@ export default function Home() {
       }
       <div className="bg-primary text-secondary flex items-center flex-col justify-center p-4 lg:pl-4 lg:pr-4 pl-8 pr-8">
         <div className="grid lg:grid-cols-[60%_40%] grid-cols-1 lg:gap-0 gap-2 read-width mx-auto lg:pb-5 lg:pt-5 lg:pl-2 lg:pr-2">
-          <div className="row-span-2 w-auto flex flex-col justify-center">
+          <div className="row-span-2 w-auto flex flex-col justify-center pr-12">
             <div>
               <div className="pb-5">
                 <h1 className="lg:text-6xl text-3xl font-bold mx-auto text-accent">
@@ -27,9 +27,9 @@ export default function Home() {
             <div>
               <p className="text-justify">
                 Sou <strong>Economista</strong> e{" "}
-                <strong>Cientista de Dados</strong>. Mais especificamente, sou
-                formado em economia e também mestre pela Universidade Federal do
-                Ceará.
+                <strong>Cientista de Dados</strong>. <br />
+                Mais especificamente, sou formado em economia e também mestre
+                pela Universidade Federal do Ceará.
               </p>
             </div>
           </div>
