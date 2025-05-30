@@ -34,6 +34,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.heading-primary {
+  @apply font-bold text-6xl pb-8 border-b-2 border-primary;
+}
+
 .heading-topic {
   @apply font-bold text-3xl pb-1 border-b-2 border-primary;
 }
