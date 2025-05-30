@@ -14,7 +14,7 @@ type ProjectThumbProps = {
 
 export const ProjectThumb = ({ projects }: ProjectThumbProps) => {
   return (
-    <div className="grid gap-2 lg:grid-cols-2 grid-cols-1 pt-4 pb-4">
+    <div className="grid gap-4 lg:grid-cols-2 grid-cols-1 pt-4 pb-4">
       {projects.map((proj) => (
         <div key={proj.slug} className="text-black">
           <div className="mb-1">
