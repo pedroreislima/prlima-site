@@ -8,9 +8,9 @@ export const projects = [
   },
   {
     slug: "random-forest-save",
-    title: "Random Forest to save Forests (Em desenvolvimento)",
+    title: "Random Forest to save Forests",
     description:
-      "Aplicando random-forest para identificar áreas risco para pista de pouso ilegais na Amazônia.",
+      "Aplicando random-forest para identificar áreas risco para pista de pouso ilegais na Amazônia. (Em desenvolvimento)",
     link: "/",
     tags: ["Python", "Scikit", "Pandas"],
   },
