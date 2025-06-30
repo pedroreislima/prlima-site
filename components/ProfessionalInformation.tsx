@@ -1,6 +1,6 @@
 export const ProfessionalInformation = () => {
   return (
-    <div className="read-width lg:pl-4 lg:pr-4 pl-0 mx-auto">
+    <div className="read-width mx-auto">
       <div className="">
         <h2 className="font-bold text-3xl pb-1 border-b-2 border-primary">
           Profissional

@@ -26,8 +26,7 @@ export default function Home() {
 
             <div>
               <p className="text-justify">
-                Sou <strong>Economista</strong> e{" "}
-                <strong>Cientista de Dados</strong>. <br />
+                Sou <strong>Economista</strong>. <br />
                 Mais especificamente, sou formado em economia e também mestre
                 pela Universidade Federal do Ceará.
               </p>
@@ -68,7 +67,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="read-width lg:p-4 lg:pl-4 lg:pr-4 pl-8 pr-8 mx-auto lg:grid lg:grid-cols-2 ">
+      <div className="read-width lg:p-4 lg:pl-4 lg:pr-4 pl-8 pr-8 mx-auto lg:grid lg:grid-cols-2 gap-12">
         {
           // Blog (futuramente)
         }
