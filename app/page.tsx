@@ -28,7 +28,7 @@ export default function Home() {
               <p className="text-justify">
                 Sou <strong>Economista</strong>,<br />
                 mais especificamente, tenho experiência trabalhando na área de
-                dados e sou formado em economia e mestre pela Universidade
+                dados e sou formado e mestre em economia pela Universidade
                 Federal do Ceará.
               </p>
             </div>
